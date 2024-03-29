@@ -1,0 +1,169 @@
+body{
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: white;
+
+}
+
+
+.container_total {
+    background-color: rgba(255, 255, 255, 0.15); 
+    border-radius: 20px;
+    margin: 80px 80px 80px 120px ; 
+    padding: 40px;
+    width: 80%;
+    position: relative;
+    z-index: 2; 
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+
+
+}
+
+.discord .linkedin { 
+    width: 40px; 
+    height: auto;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.profilepic img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%; 
+    border: 4px solid #ff79c6; 
+}
+
+.container_p1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.div_name_title h1 {
+    color: #ff79c6; 
+    margin-left: 20px;
+}
+
+.experience h2 {
+    color: #bd93f9; 
+}
+
+
+.experience {
+    background-color: rgba(139, 0, 139, 0.2); 
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li::before {
+    content: "•"; 
+    color: #ff5555; 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+a {
+    color: #8be9fd; 
+}
+
+
+.linkedin {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.discord {
+    width: 40px;
+    height: auto;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.reseaux {
+  background-color: none;
+}
+
+.communication {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.navbar {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 20px;
+}
+
+.div_icon {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius:100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    height: 18px;
+    margin-bottom: 4px;
+    width: auto;
+    color: rgb(255, 114, 137);
+}
+
+.nav_text {
+    color: #bd93f9;
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+}
+
+.div_navbar_items {
+    display: flex;
+    flex-direction: column;
+}
+.marceline_espace_1  {
+    width: 50%;
+    height: auto;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.marceline_espace_2  {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+    display: flex ;
+    justify-content: center;
+    margin:auto;
+
+}
+
+.marceline_espace_2 img{
+    width: 50%;
+    
+}

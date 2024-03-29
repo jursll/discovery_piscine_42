@@ -1,0 +1,25 @@
+.container {
+   display:flex;
+   width: 100%;
+   border: 1px solid; 
+   border-color: black;
+} 
+
+.green {
+    width: 50%;
+    padding: 20px 0px;
+    background-color: rgb(149, 218, 149);
+    border-right: 1px solid; 
+    
+}
+
+.red {
+    width: 50%;
+    padding: 20px 0px;
+    background-color: pink;
+}
+
+p {
+    color: rgb(0, 0, 0); 
+    font-family: Arial, Helvetica, sans-serif;
+}
